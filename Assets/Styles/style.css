@@ -52,3 +52,17 @@ header {
 section {
   margin-bottom: 6rem;
 }
+
+.back-link {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  background-color: #1a1a1a;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ccc;
+  border: 1px solid #444;
+  font-size: 16px;
+  z-index: 100;
+}
