@@ -1,24 +1,52 @@
 
 body {
-    font-family: 'Helvetica Neue', sans-serif;
-    margin: 0;
-    background-color: #000;
-    color: #ff00ff;
-    line-height: 1.6;
-    padding: 2rem;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  font-size: 20px; /* Generell skriftstørrelse */
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
 }
 
+/* Overskrifter */
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Uthevet tekst */
+em {
+  color: #cccccc;
+}
+
+/* Avstand mellom avsnitt */
+p {
+  margin-bottom: 1em;
+}
+
+/* Header uten rosa linje */
 header {
-    background-color: #1a1a1a;
-    padding: 1rem;
-    text-align: center;
-    border-bottom: 2px solid #ff00ff;
+  background-color: #1a1a1a;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: none;
 }
 
-h1, h2 {
-    color: #ff00ff;
-}
-
+/* Seksjoner */
 section {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
