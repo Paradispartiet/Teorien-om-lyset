@@ -1,10 +1,9 @@
-
 body {
   background-color: #000000;
   color: #ffffff;
   font-family: Georgia, serif;
-  line-height: 1.6;
-  font-size: 20px; /* Generell skriftstørrelse */
+  line-height: 1.8;
+  font-size: 22px; /* Økt generell skriftstørrelse */
   padding: 2em;
   max-width: 800px;
   margin: auto;
@@ -12,20 +11,22 @@ body {
 
 /* Overskrifter */
 h1 {
-  font-size: 32px;
+  font-size: 36px;
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 30px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 h1, h2, h3 {
   color: #ffffff;
   font-weight: bold;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Uthevet tekst */
@@ -35,7 +36,7 @@ em {
 
 /* Avstand mellom avsnitt */
 p {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 /* Header uten rosa linje */
@@ -46,7 +47,7 @@ header {
   border-bottom: none;
 }
 
-/* Seksjoner */
+/* Seksjoner (kapitler) */
 section {
-  margin-bottom: 4rem;
+  margin-bottom: 6rem; /* Økt mellomrom mellom kapitler */
 }
